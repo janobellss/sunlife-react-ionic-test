@@ -1,8 +1,14 @@
 import React from 'react';
-import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
+import { 
+  IonApp, 
+  // IonContent, 
+  IonRouterOutlet 
+} from '@ionic/react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Home from './components/Home/Home';
+import PolicyServicing from './components/PolicyServicing/PolicyServicing';
+import Policies from './components/Policies/Policies';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -24,14 +30,22 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
+  // <IonApp>
+  //   <Home />
+  //   <PolicyServicing />
+  //   <Policies />
+  // </IonApp>
+
+  <Router>
+    <IonApp>
       <IonRouterOutlet>
-        <Route path="/home" component={Home} exact={true} />
-        <Route exact path="/" render={() => <Redirect to="/home" />} />
+        <Route exact path="/" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/policyservicing" component={PolicyServicing} />
+        <Route path="/policies" component={Policies} />
       </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
+    </IonApp>
+  </Router>
 );
 
 export default App;

@@ -74,7 +74,153 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* sunlife */
+  /* yellow */
+  --ion-color-sunlife-yellow: #EAAB00;
+  --ion-color-sunlife-yellow-rgb: 234,171,0;
+  --ion-color-sunlife-yellow-contrast: #000000;
+  --ion-color-sunlife-yellow-contrast-rgb: 0,0,0;
+  --ion-color-sunlife-yellow-shade: #ce9600;
+  --ion-color-sunlife-yellow-tint: #ecb31a;
+
+  /* gray */
+  --ion-color-sunlife-gray: #E4E4E4;
+  --ion-color-sunlife-gray-rgb: 228,228,228;
+  --ion-color-sunlife-gray-contrast: #000000;
+  --ion-color-sunlife-gray-contrast-rgb: 0,0,0;
+  --ion-color-sunlife-gray-shade: #c9c9c9;
+  --ion-color-sunlife-gray-tint: #e7e7e7;
+
+  /* white */
+  --ion-color-sunlife-white: #ffffff;
+  --ion-color-sunlife-white-rgb: 255,255,255;
+  --ion-color-sunlife-white-contrast: #000000;
+  --ion-color-sunlife-white-contrast-rgb: 0,0,0;
+  --ion-color-sunlife-white-shade: #e0e0e0;
+  --ion-color-sunlife-white-tint: #ffffff;
+
+  /* primary-text */
+  --ion-color-sunlife-primary-text: #003946;
+  --ion-color-sunlife-primary-text-rgb: 0,57,70;
+  --ion-color-sunlife-primary-text-contrast: #ffffff;
+  --ion-color-sunlife-primary-text-contrast-rgb: 255,255,255;
+  --ion-color-sunlife-primary-text-shade: #00323e;
+  --ion-color-sunlife-primary-text-tint: #1a4d59;
+
+  /* secondary-text */
+  --ion-color-sunlife-secondary-text: #4A7295;
+  --ion-color-sunlife-secondary-text-rgb: 74,114,149;
+  --ion-color-sunlife-secondary-text-contrast: #ffffff;
+  --ion-color-sunlife-secondary-text-contrast-rgb: 255,255,255;
+  --ion-color-sunlife-secondary-text-shade: #416483;
+  --ion-color-sunlife-secondary-text-tint: #5c80a0;
+
+  /* tertiary-text */
+  --ion-color-sunlife-tertiary-text: #848484;
+  --ion-color-sunlife-tertiary-text-rgb: 130,130,130;
+  --ion-color-sunlife-tertiary-text-contrast: #000000;
+  --ion-color-sunlife-tertiary-text-contrast-rgb: 0,0,0;
+  --ion-color-sunlife-tertiary-text-shade: #727272;
+  --ion-color-sunlife-tertiary-text-tint: #8f8f8f;
+
+  /* coverage-arrow */
+  --ion-color-sunlife-coverage-arrow: #BCBCBC;
+  --ion-color-sunlife-coverage-arrow-rgb: 188,188,188;
+  --ion-color-sunlife-coverage-arrow-contrast: #000000;
+  --ion-color-sunlife-coverage-arrow-contrast-rgb: 0,0,0;
+  --ion-color-sunlife-coverage-arrow-shade: #a5a5a5;
+  --ion-color-sunlife-coverage-arrow-tint: #c3c3c3;
+
+  /* fonts */
+  /* --ion-font-family: 'Roboto'; */
 }
+
+/* sunlife */
+/* yellow */
+.ion-color-sunlife-yellow {
+  --ion-color-base: var(--ion-color-sunlife-yellow);
+  --ion-color-base-rgb: var(--ion-color-sunlife-yellow-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-yellow-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-yellow-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-yellow-shade);
+  --ion-color-tint: var(--ion-color-sunlife-yellow-tint);
+}
+
+/* gray */
+.ion-color-sunlife-gray {
+  --ion-color-base: var(--ion-color-sunlife-gray);
+  --ion-color-base-rgb: var(--ion-color-sunlife-gray-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-gray-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-gray-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-gray-shade);
+  --ion-color-tint: var(--ion-color-sunlife-gray-tint);
+}
+
+/* white */
+.ion-color-sunlife-white {
+  --ion-color-base: var(--ion-color-sunlife-white);
+  --ion-color-base-rgb: var(--ion-color-sunlife-white-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-white-shade);
+  --ion-color-tint: var(--ion-color-sunlife-white-tint);
+}
+
+/* primary-text */
+.ion-color-sunlife-primary-text {
+  --ion-color-base: var(--ion-color-sunlife-primary-text);
+  --ion-color-base-rgb: var(--ion-color-sunlife-primary-text-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-primary-text-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-primary-text-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-primary-text-shade);
+  --ion-color-tint: var(--ion-color-sunlife-primary-text-tint);
+}
+
+/* secondary-text */
+.ion-color-sunlife-secondary-text {
+  --ion-color-base: var(--ion-color-sunlife-secondary-text);
+  --ion-color-base-rgb: var(--ion-color-sunlife-secondary-text-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-secondary-text-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-secondary-text-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-secondary-text-shade);
+  --ion-color-tint: var(--ion-color-sunlife-secondary-text-tint);
+}
+
+/* tertiary-text */
+.ion-color-sunlife-tertiary-text {
+  --ion-color-base: var(--ion-color-sunlife-tertiary-text);
+  --ion-color-base-rgb: var(--ion-color-sunlife-tertiary-text-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-tertiary-text-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-tertiary-text-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-tertiary-text-shade);
+  --ion-color-tint: var(--ion-color-sunlife-tertiary-text-tint);
+}
+
+/* coverage-arrow */
+.ion-color-sunlife-coverage-arrow {
+  --ion-color-base: var(--ion-color-sunlife-coverage-arrow);
+  --ion-color-base-rgb: var(--ion-color-sunlife-coverage-arrow-rgb);
+  --ion-color-contrast: var(--ion-color-sunlife-coverage-arrow-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-sunlife-coverage-arrow-contrast-rgb);
+  --ion-color-shade: var(--ion-color-sunlife-coverage-arrow-shade);
+  --ion-color-tint: var(--ion-color-sunlife-coverage-arrow-tint);
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Satisfy';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/Satisfy-Regular.ttf');
+}
+
+/* @font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/Roboto-Black.ttf');
+} */
 
 @media (prefers-color-scheme: dark) {
   /*
@@ -226,3 +372,41 @@ http://ionicframework.com/docs/theming/ */
     --ion-tab-bar-background: #1f1f1f;
   }
 }
+
+/* CUSTOMIZATIONS */
+/* ion-toolbar {
+  --background-color: transparent;
+  --ion-color-base: transparent !important;
+} */
+
+ion-icon {
+  font-size: 24px;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-avatar {
+  margin: auto;
+}
+
+.home-nav-btns {
+  height: 70px;
+}
+
+.policy-servicing-item {
+  --detail-icon-color: var(--ion-color-sunlife-primary-text);
+  --detail-icon-font-size: 24px;
+  --detail-icon-opacity: 1;
+}
+
+/* .welcome-background-content {
+  background: pink;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+} */
