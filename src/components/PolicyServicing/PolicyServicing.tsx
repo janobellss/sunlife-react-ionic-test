@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { 
+    IonPage,
     IonContent,
     IonItem, 
     IonLabel, 
@@ -22,12 +23,19 @@ import Header from '../Header/Header';
 import Welcome from '../Welcome/Welcome';
 
 const PolicyServicing: React.FC = () => {
-    return(
-        <React.Fragment>
-            {/* <Header /> */}
+    // const contentRef = useRef<HTMLDivElement>(null);
+    
+    // const scrollToTop = () => {
+    //     contentRef.current.scrollToTop();
+    // }
 
-            <IonContent color="sunlife-white">
-                <Header />
+    return(
+        // <React.Fragment>
+        <IonPage>
+            <Header />
+
+            <IonContent color="sunlife-white" fullscreen>
+                {/* <Header /> */}
                 
                 <Welcome />
 
@@ -141,12 +149,14 @@ const PolicyServicing: React.FC = () => {
                     </IonRow>
                 </IonGrid>
 
-                <IonButton expand="full" fill="clear">
+                <IonButton expand="full" fill="clear" onClick={(e) => {
+                }}>
                     <IonIcon color="sunlife-primary-text" icon={chevronUpOutline} slot="icon-only" />
                 </IonButton>
 
             </IonContent>
-        </React.Fragment>
+        </IonPage>
+        // </React.Fragment>
     );
 }
 

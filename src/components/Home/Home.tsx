@@ -1,5 +1,6 @@
 import React from 'react';
 import { 
+    IonPage,
     IonContent,
     IonButton, 
     IonIcon, 
@@ -28,11 +29,12 @@ import Welcome from '../Welcome/Welcome';
 
 const Home: React.FC<any> = ({ history }) => {
     return(
-        <React.Fragment>
-            {/* <Header /> */}
+        // <React.Fragment>
+        <IonPage>
+            <Header />
             
             <IonContent color="sunlife-white" fullscreen>
-                <Header />
+                {/* <Header /> */}
                 
                 <Welcome />
             
@@ -163,7 +165,8 @@ const Home: React.FC<any> = ({ history }) => {
                     </IonCardContent>
                 </IonCard>
             </IonContent>
-        </React.Fragment>
+        </IonPage>
+        // </React.Fragment>
     );
 }
 

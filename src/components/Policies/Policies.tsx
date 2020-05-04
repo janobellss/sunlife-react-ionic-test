@@ -1,5 +1,6 @@
 import React from 'react';
 import { 
+    IonPage,
     IonContent, 
     IonHeader, 
     IonToolbar, 
@@ -35,32 +36,34 @@ const Policies: React.FC = () => {
     });
 
     return(
-        <React.Fragment>
-            {/* <IonHeader className="ion-no-border">
+        // <React.Fragment>
+        <IonPage>
+            <IonHeader className="ion-no-border">
                 <IonToolbar color="sunlife-yellow" style={policiesToolbarStyle}>
                     <IonButtons slot="start">
                         <IonBackButton color="sunlife-primary-text" defaultHref="/" />
                     </IonButtons>
                     <IonTitle color="sunlife-primary-text">All Policies</IonTitle>
                 </IonToolbar>
-            </IonHeader> */}
+            </IonHeader>
 
             <IonContent color="sunlife-gray">
-                <IonHeader className="ion-no-border">
+                {/* <IonHeader className="ion-no-border">
                     <IonToolbar color="sunlife-yellow" style={policiesToolbarStyle}>
                         <IonButtons slot="start">
                             <IonBackButton color="sunlife-primary-text" defaultHref="/" />
                         </IonButtons>
                         <IonTitle color="sunlife-primary-text">All Policies</IonTitle>
                     </IonToolbar>
-                </IonHeader>
+                </IonHeader> */}
 
                 {cardComp}
                 <IonText color="sunlife-tertiary-text" className="ion-text-center">
                     <p style={legalStyle}>*excluding pending fund transactions</p>
                 </IonText>
             </IonContent>
-        </React.Fragment>
+        </IonPage>
+        // </React.Fragment>
     );
 }
 
